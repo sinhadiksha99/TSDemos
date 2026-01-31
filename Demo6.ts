@@ -35,3 +35,18 @@ let id:number | string | boolean;
 id ="ABC123"
 id = 12
 id = true
+
+//void - here in example it is not returning anything hence using void
+
+function show():void{
+    console.log("WELCOME")
+}
+
+show();
+
+/* -------------------------------------------------------------------------------------------------------- */
+function sum(x:number , y:number):number{
+    return x+y;
+}
+let result = sum(10,20)
+console.log(result)
